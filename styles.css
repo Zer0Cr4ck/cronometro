@@ -1,0 +1,61 @@
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.contenedor {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#cronometro {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#boton-inicio-pausa {
+  background-color: #4caf50;
+  color: white;
+}
+
+
+
+#boton-inicio-pausa:hover {
+  background-color: #45a049;
+}
+#boton-inicio-pausa.stop {
+  background-color: #1acaff;
+  color: white;
+}
+
+#boton-reiniciar {
+  background-color: #f44336;
+  color: white;
+}
+
+#boton-reiniciar:hover {
+  background-color: #d32f2f;
+}
